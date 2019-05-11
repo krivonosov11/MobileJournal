@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bogda.mobilejournal.MainActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:orientation="horizontal">
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorWeekButton"
+            android:src="@drawable/left"
+            android:id="@+id/left_week"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@color/colorWeekText"
+            android:text="Тиждень №1"
+            android:id="@+id/text_week"/>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorWeekButton"
+            android:src="@drawable/right"
+            android:id="@+id/right_week"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:visibility="visible">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Понеділок"
+            android:id="@+id/day_monday"
+            android:layout_weight="1" />
+       <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Вівторок"
+            android:id="@+id/day_tuesday"
+           android:layout_weight="1"/>
+       <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Середа"
+            android:id="@+id/day_wednesday"
+           android:layout_weight="1"/>
+       <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Четвер"
+            android:id="@+id/day_thursday"
+           android:layout_weight="1"/>
+       <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="П`ятниця"
+            android:id="@+id/day_friday"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:layout_weight="0">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Учень"
+            android:layout_weight="2"
+            android:id="@+id/btn_user"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Налаштування"
+            android:layout_weight="1"
+            android:id="@+id/btn_setting"/>
+</LinearLayout>
+
+
+
+
+
+</LinearLayout>

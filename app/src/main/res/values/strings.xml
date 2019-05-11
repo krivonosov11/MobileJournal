@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Мобільний Щоденник</string>
+    <string name="monady">Понеділок</string>
+    <string name="tuesday">Вівторок</string>
+    <string name="wednesday">Середа</string>
+    <string name="thursday">Четвер</string>
+    <string name="friday">П'ятниця</string>
+    <string name="title_activity_new__user">New_UserActivity</string>
+</resources>
